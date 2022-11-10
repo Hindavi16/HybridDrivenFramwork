@@ -20,12 +20,12 @@ public class LoginTest {
 		System.out.println("<------------VERIFY - home page is displayed----->");
 		String expetedTitle = "Employee Management";
 		String actualTitle = login.getPageTitle();
-		System.out.println("Test conflicts");
+		System.out.println("Test conflicts************");
 		
 		Assert.assertEquals(actualTitle, expetedTitle, "Expected title was " + expetedTitle + " but actual title was " + actualTitle);
 		
 		PredefinedActions.closeBrowser();
-		
+		System.out.println("<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>");
 
 		
 	}
