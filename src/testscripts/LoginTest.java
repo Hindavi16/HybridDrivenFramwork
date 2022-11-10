@@ -17,9 +17,10 @@ public class LoginTest {
 		LoginPage login=new LoginPage();
 		login.login("Admin", "P3aWj3TV@o");
 		
-		System.out.println("VERIFY - home page is displayed");
+		System.out.println("<------------VERIFY - home page is displayed----->");
 		String expetedTitle = "Employee Management";
 		String actualTitle = login.getPageTitle();
+		System.out.println("Test conflicts");
 		
 		Assert.assertEquals(actualTitle, expetedTitle, "Expected title was " + expetedTitle + " but actual title was " + actualTitle);
 		
