@@ -18,6 +18,8 @@ public class LoginTest {
 		login.login("Admin", "P3aWj3TV@o");
 		
 		System.out.println("<------------VERIFY - home page is displayed----->");
+		System.out.println("TestConflicts");
+		System.out.println("<<<<VERIFY - home page is displayed>>>");
 		String expetedTitle = "Employee Management";
 		String actualTitle = login.getPageTitle();
 		System.out.println("Test conflicts");
