@@ -25,7 +25,7 @@ public class LoginTest {
 		System.out.println("Test conflicts");
 		
 		Assert.assertEquals(actualTitle, expetedTitle, "Expected title was " + expetedTitle + " but actual title was " + actualTitle);
-		
+		System.out.println("Test Scenario 2");
 		PredefinedActions.closeBrowser();
 		
 
